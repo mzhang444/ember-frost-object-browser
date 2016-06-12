@@ -222,3 +222,18 @@
     display: none;
   }
 }
+
+.frost-object-browser-search {
+
+  display: flex;
+  flex-direction: row;
+
+  .search-filters {
+    flex: 1
+  }
+
+  .search-actions {
+    justify-content: flex-end;
+  }
+
+}

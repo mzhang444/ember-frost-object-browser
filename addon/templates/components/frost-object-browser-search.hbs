@@ -1,0 +1,17 @@
+{{frost-bunsen-form
+    inline=true
+    bunsenId='objectBrowserSearchForm'
+    class='search-filters'
+    bunsenModel=searchFilterModel
+    onValidation=(action 'onValidationHandler')
+    onChange=(action 'formValueChanged')
+    value=searchFilterValue
+    bunsendView=searchFilterView
+}}
+<div class='actions'>
+    {{frost-button
+    onClick=(action 'handleSearch' false)
+    priority='primary'
+    size='small'
+    icon='frost/add'}}
+</div>

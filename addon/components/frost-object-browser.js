@@ -37,6 +37,12 @@ export default Component.extend({
     }
   },
 
+  searchMode: true,
+
+  adjustView: Ember.observer('searchMode', function () {
+    console.log('adjustView: searchMode ', this.get('searchMode'));
+  }),
+
   /**
    * @type {Object}
    */
