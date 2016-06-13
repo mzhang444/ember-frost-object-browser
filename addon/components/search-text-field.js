@@ -15,7 +15,7 @@ export default FrostBunsenTextInput.extend({
     'frost-bunsen-input-text',
     'frost-field',
     'search-text-field'
-  ]
+  ],
 
 // ==========================================================================
 // Computed Properties
@@ -32,11 +32,12 @@ export default FrostBunsenTextInput.extend({
 // ==========================================================================
 // Actions
 // ==========================================================================
-//  actions: {
-//    onFocus: function () {
-//      this._super();
-//      this.sendAction('onChange');
-//    }
-//  }
+  actions: {
+    onFocus: function () {
+      this._super();
+      console.log('onFocus');
+      this.sendAction('onChange');
+    }
+  }
 })
 
