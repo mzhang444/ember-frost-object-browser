@@ -152,11 +152,15 @@ export default Ember.Controller.extend({
         "id": "main",
         "rows": [
           [
-            {"model": "searchText"}
+            {"label": "Search", "model": "searchText", "renderer": "search-text-field"}
           ]
         ]
       }
     ]
+  },
+
+  demoSearchFilterRenderers: {
+    'string': 'search-text-field'
   },
 
   actions: {

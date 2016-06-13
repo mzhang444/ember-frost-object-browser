@@ -1,4 +1,5 @@
 @import 'node_modules/ember-frost-core/addon/styles/frost-theme';
+@import 'node_modules/ember-frost-bunsen/addon/styles/addon';
 
 .frost-object-browser {
   display: flex;
@@ -229,11 +230,19 @@
   flex-direction: row;
 
   .search-filters {
-    flex: 1
-  }
-
-  .search-actions {
+    flex: 1;
     justify-content: flex-end;
   }
 
+  .search-actions {
+    flex: 1;
+    justify-content: flex-start;
+  }
+
+}
+
+.search-text-field {
+  .frost-text {
+    width: 240px;
+  }
 }
