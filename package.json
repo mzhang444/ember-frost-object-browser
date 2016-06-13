@@ -22,14 +22,21 @@
     "Niko Skrypnik (https://github.com/nskrypnik)",
     "Peter Banka (https://github.com/psbanka)",
     "Sophy Pal (https://github.com/sophypal)",
-    "Adam Meadows (https://github.com/job13er)"
+    "Adam Meadows (https://github.com/job13er)",
+    "Roxanne Panthaky (https://github.com/rox163)",
+    "Steven Glanzer (https://github.com/sglanzer)",
+    "Michael Carrol (https://github.com/juwara0)",
+    "Will Thompson (https://github.com/sefffal)",
+    "Frank Amoroso (https://github.com/famoroso)",
+    "Gosia Hyndman (https://github.com/vesper2000)"
   ],
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
+    "ember-async-image": "0.1.1",
     "ember-block-slots": ">=0.12.1 <2.0.0",
     "ember-browserify": "^1.1.9",
-    "ember-cli": "^2.4.3",
+    "ember-cli": "2.5.1",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-autoprefixer": "0.6.0",
     "ember-cli-babel": "^5.1.5",
@@ -58,6 +65,7 @@
     "ember-prop-types": "^2.0.0",
     "ember-redux": "^1.4.0",
     "ember-resolver": "^2.0.3",
+    "ember-run-raf": "1.1.2",
     "ember-sinon": "^0.5.0",
     "ember-test-utils": "^0.1.0",
     "ember-truth-helpers": "^1.2.0",
@@ -68,6 +76,7 @@
     "loader.js": "^4.0.1",
     "redux": "^3.5.2",
     "redux-thunk": "^2.0.1",
+    "smoke-and-mirrors": "0.5.3",
     "webdriverio-client": "^1.0.3"
   },
   "keywords": [

@@ -9,7 +9,7 @@
   </div>
   <div class="top-buttons" background-color='red'>
     {{frost-button
-      icon="frost/infobar-create"
+      icon="infobar-create"
       onClick=(action "onCreate")
       priority="tertiary"
       size="medium"
@@ -45,7 +45,7 @@
               onClick=(action 'onDetailChange' 'low')
               priority="tertiary"
               size="small"
-              icon="frost/list-small"
+              icon="list-small"
             }}
           {{/if}}
           {{#if viewSchema.medium}}
@@ -54,7 +54,7 @@
               onClick=(action 'onDetailChange' 'medium')
               priority="tertiary"
               size="small"
-              icon="frost/list-medium"
+              icon="list-medium"
             }}
           {{/if}}
           {{#if viewSchema.high}}
@@ -63,7 +63,7 @@
               onClick=(action 'onDetailChange' 'high')
               priority="tertiary"
               size="small"
-              icon="frost/list-large"
+              icon="list-large"
             }}
           {{/if}}
         </div>

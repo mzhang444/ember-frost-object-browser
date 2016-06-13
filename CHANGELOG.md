@@ -37,7 +37,7 @@ Use a `# CHANGELOG` section in your Pull Request description to auto-populate th
 
   > `model` became `bunsenModel` and `view` became `bunsenView`.
 
-* **Upgraded** `ember-prop-types` to version `2.0.0`. 
+* **Upgraded** `ember-prop-types` to version `2.0.0`.
 
   > `oneOf` changed to `oneOfType` to better align with the React `propTypes` API.
 
@@ -152,7 +152,7 @@ Use a `# CHANGELOG` section in your Pull Request description to auto-populate th
   as |slot|}}
     {{#block-slot slot 'app-actions' as |onCreate|}}
       {{frost-button
-        icon='frost/infobar-create'
+        icon='infobar-create'
         onClick=(action onCreate)
         priority='tertiary'
         size='medium'
@@ -196,7 +196,7 @@ Use a `# CHANGELOG` section in your Pull Request description to auto-populate th
           onClick=(action onDetailChange 'low')
           priority='tertiary'
           size='small'
-          icon='frost/list-small'
+          icon='list-small'
         }}
       {{/if}}
       {{#if viewLevel.medium}}
@@ -205,7 +205,7 @@ Use a `# CHANGELOG` section in your Pull Request description to auto-populate th
           onClick=(action onDetailChange 'medium')
           priority='tertiary'
           size='small'
-          icon='frost/list-medium'
+          icon='list-medium'
         }}
       {{/if}}
       {{#if viewLevel.high}}
@@ -214,7 +214,7 @@ Use a `# CHANGELOG` section in your Pull Request description to auto-populate th
           onClick=(action onDetailChange 'high')
           priority='tertiary'
           size='small'
-          icon='frost/list-large'
+          icon='list-large'
         }}
       {{/if}}
       </div>
