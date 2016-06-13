@@ -159,10 +159,6 @@ export default Ember.Controller.extend({
     ]
   },
 
-  demoSearchFilterRenderers: {
-    'string': 'search-text-field'
-  },
-
   actions: {
     onCreate () {
       window.alert('One does not merely create things')

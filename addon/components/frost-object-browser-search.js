@@ -10,7 +10,7 @@ export default Ember.Component.extend({
   searchFilterModel: null,
   searchFilterValue: null,
   searchFilterView: null,
-  searchFilterRenderers: null,
+  searchFilterRenderers: {},
 
   searchMode: true,
 
@@ -45,4 +45,3 @@ export default Ember.Component.extend({
 
 }
 });
-
