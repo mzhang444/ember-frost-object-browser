@@ -1,8 +1,8 @@
 import Ember from 'ember'
-import FrostBunsenTextInput from 'ember-frost-bunsen/components/text-input'
+import TextInput from 'ember-frost-bunsen/components/text-input'
 import _ from 'lodash'
 
-export default FrostBunsenTextInput.extend({
+export default TextInput.extend({
   // ==========================================================================
   // Dependencies
   // ==========================================================================
@@ -15,7 +15,7 @@ export default FrostBunsenTextInput.extend({
     'frost-bunsen-input-text',
     'frost-field',
     'search-text-field'
-  ],
+  ]
 
 // ==========================================================================
 // Computed Properties
@@ -32,12 +32,6 @@ export default FrostBunsenTextInput.extend({
 // ==========================================================================
 // Actions
 // ==========================================================================
-  actions: {
-    onFocus: function () {
-      this._super();
-      console.log('onFocus');
-      this.sendAction('onChange');
-    }
-  }
+
 })
 

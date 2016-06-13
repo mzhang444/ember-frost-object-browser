@@ -17,6 +17,7 @@ export default Ember.Component.extend({
   actions: {
 
     formValueChanged (value) {
+      console.log('formValueChanged', value);
       this.set('searchFilterValue', value);
       this.get('actions.handleSearch').call(this, true);
     },
@@ -26,7 +27,7 @@ export default Ember.Component.extend({
     },
 
     handleSearch (inSearch){
-      //console.log('handleSearch searchMode ' + inSearch + ', filter', this.get('searchFilterValue'));
+      console.log('handleSearch searchMode ' + inSearch + ', filter', this.get('searchFilterValue'));
       if (inSearch !== this.get('searchMode')) {
         this.set('searchMode', inSearch);
         let onSearchModeChange = this.get('onSearchModeChange');
